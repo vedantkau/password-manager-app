@@ -3,7 +3,7 @@ import re
 import os
 import base64
 from cryptography.fernet import Fernet
-from appfunc import enckeyprov, savedata, saltprov, keyderive, quicksavedata, quickkeyderive
+from appfuncions import enckeyprov, savedata, saltprov, keyderive, quicksavedata, quickkeyderive
 from zipfile import ZipFile
 from kivymd.toast import toast
 from kivy.clock import Clock
