@@ -9,3 +9,4 @@ About app:
 Included functions: add password, edit login details, backup passwords, change encryption keys.
 All passwords are locally saved in /data folder. No internet access needed.
 Passwords are encrypted using fernet recipe and key derivation function is scrypt included in cryptography module.
+The app is in development phase.
